@@ -1,0 +1,33 @@
+.login-container {
+  margin-top: 100px;
+}
+
+.login-content {
+  padding: 30px;
+  text-align: center;
+  background: white;
+
+  p {
+    padding: 20px;
+  }
+}
+
+
+.logo {
+  margin: 0 auto;
+  width: 30%;
+  height: auto;
+}
+
+.register-text {
+  cursor: pointer;
+  padding-top: 3%;
+  font-size: 11px;
+}
+
+.login-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+

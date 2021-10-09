@@ -1,0 +1,19 @@
+<div class="row justify-content-center login-container">
+  <div class="col-sm-4 shadow login-content">
+    <img src="./assets/images/plane.svg" class="logo" alt="logo">
+    <h3>Login or register</h3>
+    <mat-form-field class="d-block">
+      <input matInput placeholder="Email" [(ngModel)]="credentials.email" (keydown.enter)="login()" required>
+      <mat-error>Email is required</mat-error>
+    </mat-form-field>
+    <mat-form-field class="d-block">
+      <input matInput placeholder="Password" type="password" [(ngModel)]="credentials.password" (keydown.enter)="login()" required>
+      <mat-error>Password is required</mat-error>
+    </mat-form-field>
+     <div class="login-button">
+      <button class="login-button" mat-raised-button color="black" (click)="login()">LOG IN</button>
+       <span class="register-text" (click)="register()">REGISTER</span>
+     <!-- <button mat-raised-button color="black" (click)="register()">REGISTER</button> -->
+     </div>
+  </div>
+</div>

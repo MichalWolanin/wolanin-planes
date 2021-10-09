@@ -1,0 +1,41 @@
+.app-dashboard {
+  display: flex;
+  flex-direction: column;
+
+  .app-dashboard__mat-toolbar {
+    display: grid;
+  }
+
+  .app-dashboard__navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .app-dashboard__logo {
+    height: 60px;
+    margin-left: 50px;
+    cursor: pointer;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+  }
+
+  .app-dashboard__logout-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .app-dashboard__user-login {
+    font-size: 15px;
+    padding-right: 30px;
+  }
+
+  .app-dashboard__logout-icon {
+    font-size: 35px;
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+  }
+}
+

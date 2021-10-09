@@ -1,0 +1,27 @@
+<div class="app-flight-card">
+  <div class="app-flight-card__card-container">
+    <div class="app-flight-card__card-content shadow">
+      <div class="row">
+        <div class="app-flight-card__col-ori-desti">
+          <div>
+            <p class="origin">{{ flight.origin }} - {{flight.destination}}</p>
+            
+          </div>
+        </div>
+      </div>
+        <div class="app-flight-card__departure">
+          <div class="app-flight-card__departure-first">
+            <p class="app-flight-card__date"><mat-icon> event </mat-icon> {{ flight.departureDate }}</p>
+            <p class="app-flight-card__date"><mat-icon> schedule </mat-icon> {{ flight.departureTime }}</p>
+          </div>
+          <div class="app-flight-card__departure-first">
+            <p class="app-flight-card__time"><mat-icon> event </mat-icon> {{ flight.returnDate }}</p>
+            <p class="app-flight-card__time"><mat-icon> schedule </mat-icon> {{ flight.returnTime }}</p>
+          </div>
+        </div>
+    </div>
+      <div class="shadow app-flight-card__icon-container">
+        <mat-icon> airplanemode_active </mat-icon>
+      </div>
+  </div>
+</div>
